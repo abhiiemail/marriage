@@ -25,7 +25,8 @@
   //console.log("Shaadi me zaroor aana");
 //});
  $(window).load(function(){
-  document.getElementById("my_audio").pl
+  document.getElementById("my_audio").play();
+  console.log("Audio  ");
  });
 // Set the date we're counting down to
 var countDownDate = new Date("April 30, 2023 12:15:00").getTime();
