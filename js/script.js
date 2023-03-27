@@ -21,10 +21,15 @@
  *
  */
 
-$(document).ready(function(){
+ $(document).on("click", function () {
   document.getElementById("my_audio").play();
-   console.log("Audio  ");
-  }); 
+  console.log("Audio");
+});
+
+// $(document).ready(function(){
+//   document.getElementById("my_audio").play();
+//    console.log("Audio  ");
+//   }); 
 // Set the date we're counting down to
 var countDownDate = new Date("April 30, 2023 12:15:00").getTime();
 
@@ -60,7 +65,7 @@ var x = setInterval(function () {
     document.getElementById("time").innerHTML =
       "Bless the couple for happy life!";
   }
-}, 1000);
+}, 10);
 
 // being a bit cool :p
 var styles = [
