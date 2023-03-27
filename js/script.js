@@ -1,10 +1,10 @@
 /**
  * @author Abhilash <abhiiemail@gmail.com>
  */
-(function ($) {
-  "use strict";
-  $(".sakura-falling").sakura();
-})(jQuery);
+// (function ($) {
+//   "use strict";
+//   $(".sakura-falling").sakura();
+// })(jQuery);
 
 /**
  *
@@ -96,15 +96,14 @@ var styles2 = [
   "font-size: 32px",
 ].join(";");
 
-console.log("\n\n%c SAVE THE DATE: 29th Nov, 2020!", styles);
+console.log("\n\n%c SAVE THE DATE: 30th Apr, 2023!", styles);
 
 console.log(
-  "%cYour presence is requested!%c\n\nRegards: Vinit Shahdeo",
+  "%cYour presence is requested!%c\n\nRegards: A R J",
   styles1,
   styles2
 );
 
-console.log(
-  `%cShaadi me zaroor aana!\n\n`,
+console.log( 
   "color: yellow; background:tomato; font-size: 24pt; font-weight: bold"
 );
