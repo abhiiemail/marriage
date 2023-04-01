@@ -1,10 +1,10 @@
 /**
  * @author Abhilash <abhiiemail@gmail.com>
  */
-// (function ($) {
-//   "use strict";
-//   $(".sakura-falling").sakura();
-// })(jQuery);
+(function ($) {
+  "use strict";
+  $(".sakura-falling").sakura();
+})(jQuery);
 
 /**
  *
