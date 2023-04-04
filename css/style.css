@@ -387,26 +387,6 @@ img {
 	margin: 32px 0;
 	color: #674ea7;
 }
-.celebrities  {
-    padding-left: 750px;
-}
-
-.celebrities  h1,h2 {
-	font-family: 'Dancing Script', cursive;
-	font-weight: bold;
-	font-style: normal;
-	font-size: 60px;
-	margin: 32px 0;
-	color: #674ea7;
-}
-.celebrities  h1 {
-	font-family: 'Dancing Script', cursive;
-	font-weight: bold;
-	font-style: normal;
-	font-size: 60px;
-	margin: 32px 0;
-	color: #674ea7;
-}
 
 .title h2 {
 	font-family: 'Dancing Script', cursive;
@@ -429,9 +409,9 @@ img {
 	text-align: center;
 }
 
-.title h3,h4 {
+.title h3 {
 	font-weight: 300;
-	text-transform: capitalize;
+	text-transform: uppercase;
 	letter-spacing: 5px;
 	font-size: 24px;
 	color: #674ea7;
@@ -476,11 +456,6 @@ body {
 	/* height: 100vh;
     width: 100%; */
 	flex-direction: column;
-	background-image:url(evie-s-bSVGnUCk4tk-unsplash.jpg);
-	height: auto;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .title {
@@ -546,10 +521,6 @@ body {
 }
 
 .date {
-	color: #874562;
-	font-weight: 900;
-}
-.date_details {
 	color: #874562;
 	font-weight: 900;
 }
